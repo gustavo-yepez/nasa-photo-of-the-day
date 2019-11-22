@@ -1,15 +1,15 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./App.css";
+import NasaList from "./components/NasaList";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <header><h1>NASA PHOTO OF THE DAY</h1></header>
+      <NasaList/>
     </div>
   );
 }
 
 export default App;
+
